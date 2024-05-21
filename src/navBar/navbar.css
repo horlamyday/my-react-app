@@ -1,0 +1,17 @@
+
+.navbar{
+    position: initial;
+    top: 0;
+    z-index: 1030;
+}
+.logo{
+    width: 50px;
+    height: fit-content;
+}
+.navbar-nav{
+    color: aliceblue;
+}  
+
+.nav-item a:hover{
+    color: blue;
+}
