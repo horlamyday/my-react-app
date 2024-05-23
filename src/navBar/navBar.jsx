@@ -39,9 +39,10 @@ function Navbar() {
               <i className="bi bi-house-door"> Home</i>
               </a>
             </li>
-            <form className="d-flex" role="search">
+            <form className="d-flex" id="input"  role="search">
             <input
               className="form-control me-1"
+              id="search"
               type="search"
               placeholder="Search"
               aria-label="Search"

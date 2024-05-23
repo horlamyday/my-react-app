@@ -1,240 +1,506 @@
 import React from "react";
-import './Page.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navber from '../navBar/navBar';
-
+import "./Page.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 function Page() {
   return (
     <>
-    <Navber />
-     <div className='container-fluid'>
-    
-      <section className='hero'>
-        <section>
-        <h4>Trade-in-offer</h4>
-        <h2>Super value deals</h2>
-        <h1>On all products </h1>
-        <p className="save">Save more with coupons & up to 70% off!</p>
-        <button>Shop Now</button>
+      <div className="container-fluid">
+        <section className="hero">
+          <section className="trade">
+            <h4>Trade-in-offer</h4>
+            <h2>Super value deals</h2>
+            <h1>On all products </h1>
+            <p className="save">Save more with coupons & up to 70% off!</p>
+            <button>Shop Now</button>
+          </section>
+          <img
+            className="keep"
+            src={require("../images/IMG-20230713-WA0025.jpg")}
+            alt=""
+          />
         </section>
-        <img src={require('../images/IMG-20230713-WA0025.jpg')} alt="" />
+
+        <section id="feature" className="section-p1">
+          <div className="fe-box">
+            <img src={require("../feature/freeShipping.png")} alt="shipping" />
+            <h6>Free Shipping</h6>
+          </div>
+
+          <div className="fe-box">
+            <img src={require("../feature/online-order.jpg")} alt="order" />
+            <h6>Online Order</h6>
+          </div>
+          <div className="fe-box">
+            <img src={require("../feature/rx-contact.jpg")} alt="rx" />
+            <h6>Contact Pharmacist</h6>
+          </div>
+          <div className="fe-box">
+            <img src={require("../feature/promotion.jpg")} alt="promotion" />
+            <h6>Promotion</h6>
+          </div>
+          <div className="fe-box">
+            <img src={require("../feature/happy-sell.jpg")} alt="sell" />
+            <h6>Happy Sell</h6>
+          </div>
+          <div className="fe-box">
+            <img src={require("../feature/support.png")} alt="support" />
+            <h6>F24/7 Support</h6>
+          </div>
+        </section>
+
+        <section id="product1" className="section-p1">
+          <h2>Featured Products</h2>
+          <p>Special Hair Skin & Nails Beauty Supplement</p>
+          <div className="pro-container">
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="banner" className="section-m1">
+          <h4>Consulting Services</h4>
+          <h2>
+            Up to <span>70% off</span> - All Consultaion & <span>5% off</span> -
+            All Supplement
+          </h2>
+          <button className="normal">Explore More</button>
+        </section>
+
+        <section id="product1" className="section-p1">
+          <h2>New Arrivals</h2>
+          <p>Vitalbiotics Supplement for Men & Women</p>
+          <div className="pro-container">
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+            <div className="pro">
+              <img
+                src="https://via.placeholder.com/150" // Placeholder image URL
+                alt="Beauty complex"
+              />
+              <div className="des">
+                <span>reviveActive</span>
+                <h5>Beauty complex</h5>
+                <div className="star">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#">
+                <i className="bi bi-cart4  cart"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="sm-banner" className="section-p1">
+          <div className="banner-box">
+            <h4>creazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>...g respect be the man of your dreams</span>
+            <button className="white">Learn More</button>
+          </div>
+          <div className="banner-box banner-box2">
+            <h4>creazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>...g respect be the man of your dreams</span>
+            <button className="white">Learn More</button>
+          </div>
+        </section>
+      </div>
+
+      <section id="banner3" className="section-p1">
+        <div className="banner-box banner-box3">
+          <h2>creazy deals</h2>
+          <h3>buy 1 get 1 free</h3>
+        </div>
+        <div className="banner-box banner-box3">
+          <h2>creazy deals</h2>
+          <h3>buy 1 get 1 free</h3>
+        </div>
+        <div className="banner-box banner-box3">
+          <h2>creazy deals</h2>
+          <h3>buy 1 get 1 free</h3>
+        </div>
       </section>
-    <section id="feature" className="section-p1">
-      <div className="fe-box">
-        <img src={require('../feature/freeShipping.png')} alt="shipping" />
-        <h6>Free Shipping</h6>
-      </div>
 
-      <div className="fe-box">
-        <img src={require('../feature/online-order.jpg')} alt="order" />
-        <h6>Online Order</h6>
-      </div>
-      <div className="fe-box">
-        <img src={require('../feature/rx-contact.jpg')} alt="rx" />
-        <h6>Contact Pharmacist</h6>
-      </div>
-      <div className="fe-box">
-        <img src={require('../feature/promotion.jpg')} alt="promtion" />
-        <h6>Promotion</h6>
-      </div>
-      <div className="fe-box">
-        <img src={require('../feature/happy-sell.jpg')} alt="sell" />
-        <h6>Happy Sell</h6>
-      </div>
-      <div className="fe-box">
-        <img src={require('../feature/support.png')} alt="support" />
-        <h6>F24/7 Support</h6>
-      </div>
-    </section>
-    <section id="product1" className="scetion-p1">
-      <h2>Featured Products</h2>
-      <p>Special Hair Skin & Nials Beauty Supplement</p>
-      <div className="pro-container">
-        <div className="pro">
-          <img src={require('../images/active.jpg')} alt="active" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
+      <section id="newsletter" className="section-p1 sm-banner ">
+        <div className="newstext">
+          <h4>Sign Up For Newsletters</h4>
+          <p>
+          Get E-mail update about our latest supplement and <span>special offers.</span></p>
         </div>
-        <div className="pro">
-         <img src={require('../images/booster.jpg')} alt="booster" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
+        <div className="form">
+          <input type="text" id="enter" placeholder="Your email address"/>
+          <button>Sign Up</button>
         </div>
-        <div className="pro">
-          <img src={require('../images/nails.jpg')} alt="nail"/>
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
+      </section>
+
+      <footer className="section-p1">
+        <div className="col">
+          <img className="logo1" src={require('../navBar/logo-ski.jpg')} alt="logo" />
+          <h4>Contact</h4>
+          <p> <strong>Address:</strong>183A Akerele Extention, Shitta Surulere Lagos.</p>
+          <p> <strong>Phone:</strong> +234 8057 510 404 / (+234) 8182179491 </p>
+          <p> <strong>Hours:</strong> 8:00AM - 10:00PM, Mon - Sat , Sun 12:00PM - 10:00PM</p>
+          <div className="follow">
+            <h4>Follow Us</h4>
+            <div className="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
             </div>
-            <h4>$78</h4>
           </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
         </div>
-        <div className="pro">
-          <img src={require('../images/immum.jpg')} alt="immun" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
+        <div className="col">
+          <h4>About</h4>
+          <a href="#">About us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div className="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+        <div className="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div className="row">
+            <img  src={require("../images/apple-store.jpg")} alt="app store" />
+            <img src={require("../feature/google-play.jpg")} alt="google play" />
           </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
+          <p>Secured Payment Gateways</p>
+          <img src="https://via.placeholder.com/150" alt="paymet" />
         </div>
-        <div className="pro">
-          <img src={require('../images/naturesbounty-newlook-group.png')} alt="group" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
+        <div className="copyright">
+          <p>  <i class="bi bi-c-circle"></i>  2024, Dantech etc - React Ecommerce</p>
         </div>
-        <div className="pro">
-          <img src={require('../images/neocello.jpg')} alt="neocell" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
-        </div>
-        <div className="pro">
-          <img src={require('../images/IMG-20240422-WA0007.jpg')} alt="WA007" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
-        </div>
-        <div className="pro">
-          <img src={require('../images/IMG-20230713-WA0028.jpg')} alt="WA0028" />
-          <div className="des">
-            <span>reviveactive</span>
-            <h5>Beauty complex</h5>
-            <div className="star">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a  href="#">
-          <i className="bi bi-cart4  cart"></i>
-          </a>
-        </div>
-      </div>
+      </footer>
       
-      
-    </section>
-
-    <section>
-    <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={require('../images/IMG-20230713-WA0023.jpg')} className="d-block w-100" alt="First slide" />
-        </div>
-        <div className="carousel-item">
-          <img src={require('../images/durex.jpg')} className="d-block w-100" alt="Second slide" />
-        </div>
-        <div className="carousel-item">
-          <img src={require('../images/IMG-20230713-WA0024.jpg')} className="d-block w-100" alt="Third slide" />
-        </div>
-      </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-    </section>
-
-
-
-
-     <section id="banner" className="section-m1">
-      <h4>Consulting Services</h4>
-      <h2>Up to <span>70% off</span> - All Consultaion & Supplement</h2>
-      <button>Explore More</button>
-     </section>
-</div>
-
-</>
+    </>
   );
 }
 
