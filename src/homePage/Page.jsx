@@ -227,7 +227,7 @@ function Page() {
         <section id="banner" className="section-m1">
           <h4>Consulting Services</h4>
           <h2>
-            Up to <span>70% off</span> - All Consultaion & <span>5% off</span> -
+            Up to <span>70% off</span> - All Consultation & <span>5% off</span> -
             All Supplement
           </h2>
           <button className="normal">Explore More</button>
@@ -235,7 +235,7 @@ function Page() {
 
         <section id="product1" className="section-p1">
           <h2>New Arrivals</h2>
-          <p>Vitalbiotics Supplement for Men & Women</p>
+          <p>Vital biotics Supplement for Men & Women</p>
           <div className="pro-container">
             <div className="pro">
               <img
@@ -410,13 +410,13 @@ function Page() {
 
         <section id="sm-banner" className="section-p1">
           <div className="banner-box">
-            <h4>creazy deals</h4>
+            <h4>Crazy deals</h4>
             <h2>buy 1 get 1 free</h2>
             <span>...g respect be the man of your dreams</span>
             <button className="white">Learn More</button>
           </div>
           <div className="banner-box banner-box2">
-            <h4>creazy deals</h4>
+            <h4>Crazy deals</h4>
             <h2>buy 1 get 1 free</h2>
             <span>...g respect be the man of your dreams</span>
             <button className="white">Learn More</button>
@@ -426,15 +426,15 @@ function Page() {
 
       <section id="banner3" className="section-p1">
         <div className="banner-box banner-box3">
-          <h2>creazy deals</h2>
+          <h2>Crazy deals</h2>
           <h3>buy 1 get 1 free</h3>
         </div>
         <div className="banner-box banner-box3">
-          <h2>creazy deals</h2>
+          <h2>Crazy deals</h2>
           <h3>buy 1 get 1 free</h3>
         </div>
         <div className="banner-box banner-box3">
-          <h2>creazy deals</h2>
+          <h2>Crazy deals</h2>
           <h3>buy 1 get 1 free</h3>
         </div>
       </section>
@@ -455,7 +455,7 @@ function Page() {
         <div className="col">
           <img className="logo1" src={require('../navBar/logo-ski.jpg')} alt="logo" />
           <h4>Contact</h4>
-          <p> <strong>Address:</strong>183A Akerele Extention, Shitta Surulere Lagos.</p>
+          <p> <strong>Address:</strong>183A Akerele Extension, Shitta Surulere Lagos.</p>
           <p> <strong>Phone:</strong> +234 8057 510 404 / (+234) 8182179491 </p>
           <p> <strong>Hours:</strong> 8:00AM - 10:00PM, Mon - Sat , Sun 12:00PM - 10:00PM</p>
           <div className="follow">
@@ -493,10 +493,10 @@ function Page() {
             <img src={require("../feature/google-play.jpg")} alt="google play" />
           </div>
           <p>Secured Payment Gateways</p>
-          <img src="https://via.placeholder.com/150" alt="paymet" />
+          <img src="https://via.placeholder.com/150" alt="payment" />
         </div>
         <div className="copyright">
-          <p>  <i class="bi bi-c-circle"></i>  2024, Dantech etc - React Ecommerce</p>
+          <p>  <i class="bi bi-c-circle"></i>  2024, Dan-tech etc - React E-commerce</p>
         </div>
       </footer>
       

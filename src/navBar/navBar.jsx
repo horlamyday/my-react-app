@@ -10,11 +10,10 @@ function Navbar() {
   const toggleNavbar = () => {
     setIsNavbarCollapsed(!isNavbarCollapsed);
   };
-
   return (
     <>
     <div className='container-fluid'>
-    <nav className="navbar navbar-expand-lg  navbar-light bg-body">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-body">
       <div className="container-fluid">
         <a className="navbar-brand "   href="#">
         <img className='logo' src={require('./logo-ski.jpg')}  alt="now" /> <span></span>SKI-PHARMACEUTICAL
@@ -35,7 +34,7 @@ function Navbar() {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 lg-">
             <li className="nav-item">
             
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/Page">
               <i className="bi bi-house-door"> Home</i>
               </a>
             </li>
@@ -52,7 +51,7 @@ function Navbar() {
             </button>
             </form>
             <li className="nav-item">
-              <a className="nav-link outline-primary"  href="#">
+              <a className="nav-link outline-primary"  href="/login">
                 Login
               </a>
             </li>
@@ -64,19 +63,19 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-               Blog
+              Blog
               </a>
             </li>
           </ul>
           <ul className="navbar-nav  mb-2 mb-lg-0 bg-">
           <li className="nav-item">
               <a className="nav-link" href="#">
-                Contac Us
+                Contact Us
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-               About Us
+              About Us
               </a>
             </li>
               <a className="nav-link" href="#">
@@ -87,8 +86,8 @@ function Navbar() {
       </div>
     </nav>
     </div>
-   
-   </>
+  
+</>
   );
 }
 
